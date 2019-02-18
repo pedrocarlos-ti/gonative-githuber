@@ -1,4 +1,4 @@
-package com.boilerplater;
+package com.githuber;
 
 import android.app.Application;
 
