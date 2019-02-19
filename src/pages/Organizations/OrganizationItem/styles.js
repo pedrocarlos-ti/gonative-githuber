@@ -2,23 +2,24 @@ import { StyleSheet } from 'react-native';
 import { colors, metrics } from '~/styles';
 
 const styles = StyleSheet.create({
+  avatar: {
+    height: 50,
+    width: 50,
+  },
   container: {
     alignItems: 'center',
     backgroundColor: colors.white,
-    borderBottomColor: colors.light,
-    borderBottomWidth: 1,
-    flexDirection: 'row',
-    height: 54,
-    justifyContent: 'space-between',
-    paddingHorizontal: metrics.basePadding,
-  },
-  icon: {
-    color: colors.darker,
+    borderRadius: metrics.baseRadius,
+    flex: 1,
+    marginTop: metrics.baseMargin,
+    maxWidth: (metrics.screenWidth - 60) / 2,
+    padding: metrics.basePadding,
   },
   title: {
     color: colors.darker,
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: 'bold',
+    marginTop: metrics.baseMargin,
   },
 });
 
