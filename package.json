@@ -10,7 +10,9 @@
   "dependencies": {
     "prop-types": "^15.7.0",
     "react": "16.6.3",
-    "react-native": "0.58.4"
+    "react-native": "0.58.4",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-navigation": "^3.3.0"
   },
   "devDependencies": {
     "babel-core": "^7.0.0-bridge.0",
