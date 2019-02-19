@@ -12,6 +12,7 @@
     "no-mixed-spaces-and-tabs": [2, "smart-tabs"],
     "no-tabs": "off",
     "allowIndentationTabs": true,
+    "react/prop-types": ["error", { "ignore": ["navigation"] }],
     "react/jsx-filename-extension": [
       "error",
       {

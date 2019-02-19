@@ -22,6 +22,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: metrics.basePadding,
   },
+  error: {
+    color: colors.danger,
+    marginTop: metrics.baseMargin,
+    textAlign: 'center',
+  },
   form: {
     marginTop: metrics.baseMargin * 2,
   },

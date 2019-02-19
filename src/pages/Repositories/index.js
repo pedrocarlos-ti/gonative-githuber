@@ -1,7 +1,11 @@
 import React from 'react';
 
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 
-const Organizations = () => <View />;
+const Organizations = () => (
+  <View>
+    <Text>Repositórios</Text>
+  </View>
+);
 
 export default Organizations;
